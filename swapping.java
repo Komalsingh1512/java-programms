@@ -6,9 +6,9 @@ public class swapping {
         System.out.println("Before swapping: a = " + a + ", b = " + b);
         
         // Swapping using a third variable
-        int temp = a; // Store the value of a in temp
-        a = b;       // Assign the value of b to a
-        b = temp;    // Assign the value of temp (original a) to b
+        int temp = a; 
+        a = b;       
+        b = temp;    
         
         System.out.println("After swapping: a = " + a + ", b = " + b);
     }
